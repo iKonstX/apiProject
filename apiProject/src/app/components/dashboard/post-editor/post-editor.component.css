@@ -1,0 +1,11 @@
+
+
+.editor > * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.editor #    {
+    border: 1px solid;
+    border-color: grey;
+}

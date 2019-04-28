@@ -1,0 +1,10 @@
+.timeline {
+    margin: 0 auto;
+     width: 50%; 
+    border: 1px solid;
+    border-color: #bfbfbf71;
+    border-radius: 5px;
+    padding: 7px 7px 7px 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

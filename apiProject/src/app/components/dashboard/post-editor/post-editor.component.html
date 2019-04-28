@@ -1,0 +1,9 @@
+<div class="timeline">
+
+  <div class="editor">
+    Logged in as: {{user}} <button type="button" routerLink="/login" class="btn btn-link">Switch</button>
+    <ckeditor [editor]="Editor" [(ngModel)]="model.editorData" (focus)="onFocus($event)"></ckeditor>
+    <button id="submit" class="btn btn-light" (click)="sendPost()">Submit</button>
+  </div>
+
+</div>
